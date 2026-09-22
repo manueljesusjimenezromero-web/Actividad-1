@@ -1,90 +1,31 @@
+Act 1 creada por Manuel Jesús y José Fernandez.
+
+Eligiremos la web de Instagram.
+
+1. Auditoria de Red(Network): 
+
+DOC(HTML): 206,5 kB
+<img width="1917" height="870" alt="Captura de pantalla 2026-09-22 123204" src="https://github.com/user-attachments/assets/9c185142-4031-4be2-97c0-81e02bea15b1" />
+
+Script de JavaScript:3228 kB
+<img width="1666" height="852" alt="Captura de pantalla 2026-09-22 132131" src="https://github.com/user-attachments/assets/70214772-8582-4b03-a137-674871cfcd88" />
 
 
-# Acto 1 — Auditoría técnica de Instagram Web  
-**Autores:** Manuel Jesús y José Fernández
+Ejecución de servidor ya que el cliente recibe el contenido del HTML ya renderizado ya procesado, mayor seguridad y control de datos como los usuarios y constante comunicación con servidor.
 
----
+2. Performance 
 
-## 1. Auditoría de Red (Network)
+* parsing HTML: que se representa como htmlstar y htmlflush
+<img width="1670" height="846" alt="Captura de pantalla 2026-09-22 125703" src="https://github.com/user-attachments/assets/3c6d159f-f575-4280-a484-5d0e8851ffcc" />
 
-### 📄 Documento HTML (DOC)
-**Tamaño:** 206,5 kB
+htmlstar es el inicio en el que Chrome empieza a parsear el HTML recibido del servidor y el htmlflush es cuando termina de procesar un bloque de HTML.
 
-Instagram entrega un HTML ya procesado desde el servidor, lo que indica uso de **renderizado del lado del servidor (SSR)**.  
-Esto permite:
-- Mayor velocidad en la carga inicial.  
-- Más seguridad y control sobre los datos del usuario.  
-- Comunicación constante con el servidor.
-<img width="1917" height="870" alt="Captura de pantalla 2026-09-22 123204" src="https://github.com/user-attachments/assets/f3a36293-b6e5-491a-9127-35cb07a611bd" />
----
+Esto se consigue al iniciar la grabación y a la vez recargar la pagina.
 
-### 📜 Scripts de JavaScript
-**Tamaño total:** 3228 kB
+* Evaluate script: es código ejecutado de JS ejecutado en memoria.
+<img width="1666" height="853" alt="Captura de pantalla 2026-09-22 125017" src="https://github.com/user-attachments/assets/b5075416-5b34-4324-8ec8-bc33a3688637" />
 
-Instagram divide su JavaScript en múltiples bundles ofuscados. Estos scripts contienen:
-- React y su sistema de renderizado.  
-- Lógica interna de la aplicación.  
-- Módulos cargados dinámicamente.  
-- Código para animaciones, reproducción de reels y eventos.  
+* Compile code: barras amarillas finas dentro de esos bloques + sub‑eventos en la tabla inferior.
+<img width="1377" height="371" alt="Captura de pantalla 2026-09-22 133135" src="https://github.com/user-attachments/assets/bb1a7427-9e3a-432b-95c3-2bb9457cb759" />
 
-El navegador descarga estos archivos y el motor JS los ejecuta para generar la experiencia interactiva.
-<img width="1726" height="797" alt="Captura de pantalla 2026-09-22 123223" src="https://github.com/user-attachments/assets/7b766e71-1177-4fd8-b88e-9a81f6df4107" />
----
-
-## 2. Performance (Rendimiento)
-
-La grabación de rendimiento muestra cómo el navegador procesa el HTML y ejecuta el JavaScript de Instagram.
-
----
-
-### 🔹 Parsing HTML (htmlstar y htmlflush)
-
-- **htmlstar** → Inicio del parseo del HTML recibido del servidor.  
-- **htmlflush** → Finalización del procesamiento de un bloque de HTML.
-
-Estos eventos aparecen al **iniciar la grabación y recargar la página**.
-
----
-
-### 🔹 Evaluate Script
-
-**Evaluate script** representa **código JavaScript ejecutado directamente en memoria**, no descargado como archivo independiente.
-
-Instagram genera gran parte de su lógica de forma dinámica, por lo que el motor JS ejecuta:
-- Código inline.  
-- Funciones creadas por React.  
-- Módulos cargados bajo demanda.  
-- Callbacks del reproductor de reels.
-
-Por eso este evento **no tiene tamaño** en la pestaña Network.
-
----
-
-### 🔹 Compile Code
-
-Las barras amarillas finas dentro de los bloques de ejecución representan **Compile code**, es decir:
-- Trabajo del motor JS preparando funciones para ejecutarse.  
-- Optimización interna del código.  
-- Sub‑eventos visibles en la tabla inferior (*Bottom‑Up*).
-
-Esto ocurre constantemente en aplicaciones complejas como Instagram.
-
----
-
-## 3. Qué está haciendo el motor JavaScript
-
-El motor JS está realizando todas las tareas necesarias para que Instagram funcione de forma fluida:
-
-- Ejecutar funciones del bundle (React + módulos internos).  
-- Actualizar la interfaz mediante commits de React.  
-- Procesar animaciones del reel con `requestAnimationFrame`.  
-- Programar tareas diferidas con `setTimeout`.  
-- Gestionar eventos del usuario y del reproductor de vídeo.  
-- Optimizar y compilar código dinámico.
-
----
-
-### 🟩 Resumen
-
-**El motor JavaScript interpreta, ejecuta y optimiza el código de Instagram para renderizar la interfaz, reproducir el reel y mantener la aplicación interactiva.**
-
+El motor JS ejecuta y procesa codigo de insta
