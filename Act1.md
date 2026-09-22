@@ -31,6 +31,6 @@ Esto se consigue al iniciar la grabación y a la vez recargar la pagina.
 El motor JS ejecuta y procesa codigo de instagram
 
 3. Consola
-
+Creamos la variable a que contiene un string y luego un console.log(a)para imprimir por pantalla.
 <img width="747" height="146" alt="Captura de pantalla 2026-09-22 141510" src="https://github.com/user-attachments/assets/06ecaf4b-6985-4235-9245-7c5761616b18" />
 
