@@ -17,6 +17,7 @@ Ejecución de servidor ya que el cliente recibe el contenido del HTML ya renderi
 2. Performance 
 
 * parsing HTML: que se representa como htmlstar y htmlflush
+<img width="1670" height="846" alt="Captura de pantalla 2026-09-22 125703" src="https://github.com/user-attachments/assets/3c6d159f-f575-4280-a484-5d0e8851ffcc" />
 
 htmlstar es el inicio en el que Chrome empieza a parsear el HTML recibido del servidor y el htmlflush es cuando termina de procesar un bloque de HTML.
 
