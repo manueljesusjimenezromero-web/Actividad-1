@@ -24,5 +24,6 @@ htmlstar es el inicio en el que Chrome empieza a parsear el HTML recibido del se
 Esto se consigue al iniciar la grabación y a la vez recargar la pagina.
 
 * Evaluate script: es código ejecutado de JS ejecutado en memoria.
+<img width="1666" height="853" alt="Captura de pantalla 2026-09-22 125017" src="https://github.com/user-attachments/assets/b5075416-5b34-4324-8ec8-bc33a3688637" />
 
 * 
