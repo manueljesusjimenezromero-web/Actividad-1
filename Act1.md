@@ -26,4 +26,5 @@ Esto se consigue al iniciar la grabación y a la vez recargar la pagina.
 * Evaluate script: es código ejecutado de JS ejecutado en memoria.
 <img width="1666" height="853" alt="Captura de pantalla 2026-09-22 125017" src="https://github.com/user-attachments/assets/b5075416-5b34-4324-8ec8-bc33a3688637" />
 
-* 
+* Compile code: barras amarillas finas dentro de esos bloques + sub‑eventos en la tabla inferior.
+<img width="1377" height="371" alt="Captura de pantalla 2026-09-22 133135" src="https://github.com/user-attachments/assets/bb1a7427-9e3a-432b-95c3-2bb9457cb759" />
