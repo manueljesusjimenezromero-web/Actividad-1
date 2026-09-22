@@ -1,3 +1,4 @@
+<img width="1726" height="797" alt="Captura de pantalla 2026-09-22 123223" src="https://github.com/user-attachments/assets/7b766e71-1177-4fd8-b88e-9a81f6df4107" />
 
 # Acto 1 — Auditoría técnica de Instagram Web  
 **Autores:** Manuel Jesús y José Fernández
