@@ -5,6 +5,8 @@ Eligiremos la web de instagram.
 1. Auditoria de red(Network): 
 
 DOC(HTML): 224,5 kB
+<img width="692" height="351" alt="Captura de pantalla 2026-09-21 105035" src="https://github.com/user-attachments/assets/10a3c821-7dc4-4c27-b9b2-6af423fa1fa9" />
+
 Script de javaScript:3228 kB
 
 Ejecucion de servidor ya que el cliente recibe el contenido del html ya renderizado ya procesado, mayor seguridad y control de datos como los usuarios y constante comunicacion con servidor.
