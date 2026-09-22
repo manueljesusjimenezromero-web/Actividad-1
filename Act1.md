@@ -1,3 +1,4 @@
+
 # Acto 1 — Auditoría técnica de Instagram Web  
 **Autores:** Manuel Jesús y José Fernández
 
@@ -13,7 +14,7 @@ Esto permite:
 - Mayor velocidad en la carga inicial.  
 - Más seguridad y control sobre los datos del usuario.  
 - Comunicación constante con el servidor.
-
+<img width="1917" height="870" alt="Captura de pantalla 2026-09-22 123204" src="https://github.com/user-attachments/assets/f3a36293-b6e5-491a-9127-35cb07a611bd" />
 ---
 
 ### 📜 Scripts de JavaScript
