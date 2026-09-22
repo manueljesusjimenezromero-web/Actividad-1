@@ -38,3 +38,4 @@ Creamos la variable "a" que contiene un string y luego un console.log(a) para im
 Luego con un comando maligno como el Filereader:
 
 <img width="932" height="102" alt="Captura de pantalla 2026-09-22 142630" src="https://github.com/user-attachments/assets/b41e9699-3890-47db-9140-58cd0ec361b2" />
+Este error es exactamente lo que debe ocurrir: el navegador está bloqueando el intento de acceder a un archivo del disco usando una ruta local.
