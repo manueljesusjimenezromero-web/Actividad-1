@@ -1,4 +1,3 @@
-
 # Acto 1 — Auditoría técnica de Instagram Web  
 **Autores:** Manuel Jesús y José Fernández
 
@@ -38,4 +37,52 @@ La grabación de rendimiento muestra cómo el navegador procesa el HTML y ejecut
 
 ### 🔹 Parsing HTML (htmlstar y htmlflush)
 
-- **htmlstar** → Inicio del
+- **htmlstar** → Inicio del parseo del HTML recibido del servidor.  
+- **htmlflush** → Finalización del procesamiento de un bloque de HTML.
+
+Estos eventos aparecen al **iniciar la grabación y recargar la página**.
+
+---
+
+### 🔹 Evaluate Script
+
+**Evaluate script** representa **código JavaScript ejecutado directamente en memoria**, no descargado como archivo independiente.
+
+Instagram genera gran parte de su lógica de forma dinámica, por lo que el motor JS ejecuta:
+- Código inline.  
+- Funciones creadas por React.  
+- Módulos cargados bajo demanda.  
+- Callbacks del reproductor de reels.
+
+Por eso este evento **no tiene tamaño** en la pestaña Network.
+
+---
+
+### 🔹 Compile Code
+
+Las barras amarillas finas dentro de los bloques de ejecución representan **Compile code**, es decir:
+- Trabajo del motor JS preparando funciones para ejecutarse.  
+- Optimización interna del código.  
+- Sub‑eventos visibles en la tabla inferior (*Bottom‑Up*).
+
+Esto ocurre constantemente en aplicaciones complejas como Instagram.
+
+---
+
+## 3. Qué está haciendo el motor JavaScript
+
+El motor JS está realizando todas las tareas necesarias para que Instagram funcione de forma fluida:
+
+- Ejecutar funciones del bundle (React + módulos internos).  
+- Actualizar la interfaz mediante commits de React.  
+- Procesar animaciones del reel con `requestAnimationFrame`.  
+- Programar tareas diferidas con `setTimeout`.  
+- Gestionar eventos del usuario y del reproductor de vídeo.  
+- Optimizar y compilar código dinámico.
+
+---
+
+### 🟩 Resumen
+
+**El motor JavaScript interpreta, ejecuta y optimiza el código de Instagram para renderizar la interfaz, reproducir el reel y mantener la aplicación interactiva.**
+
