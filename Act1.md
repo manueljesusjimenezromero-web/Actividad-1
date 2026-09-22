@@ -36,3 +36,5 @@ Creamos la variable "a" que contiene un string y luego un console.log(a) para im
 <img width="747" height="146" alt="Captura de pantalla 2026-09-22 141510" src="https://github.com/user-attachments/assets/06ecaf4b-6985-4235-9245-7c5761616b18" />
 
 Luego con un comando maligno como el Filereader:
+
+<img width="932" height="102" alt="Captura de pantalla 2026-09-22 142630" src="https://github.com/user-attachments/assets/b41e9699-3890-47db-9140-58cd0ec361b2" />
