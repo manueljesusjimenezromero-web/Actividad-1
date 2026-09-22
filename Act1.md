@@ -28,4 +28,9 @@ Esto se consigue al iniciar la grabación y a la vez recargar la pagina.
 * Compile code: barras amarillas finas dentro de esos bloques + sub‑eventos en la tabla inferior.
 <img width="1377" height="371" alt="Captura de pantalla 2026-09-22 133135" src="https://github.com/user-attachments/assets/bb1a7427-9e3a-432b-95c3-2bb9457cb759" />
 
-El motor JS ejecuta y procesa codigo de insta
+El motor JS ejecuta y procesa codigo de instagram
+
+3. Consola
+
+<img width="747" height="146" alt="Captura de pantalla 2026-09-22 141510" src="https://github.com/user-attachments/assets/06ecaf4b-6985-4235-9245-7c5761616b18" />
+
