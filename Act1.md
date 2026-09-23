@@ -42,5 +42,5 @@ Este error es exactamente lo que debe ocurrir: el navegador está bloqueando el 
 
 **4. Análisis de bloqueo**
 
-Si un script de 1MB se ejecuta de forma síncrona, la página se congela, pierde fluidez y incluso cerrar el navegador. El modelo asíncrono y orientado a eventos de scripting web evita este bloqueo y mantiene la interfaz reactiva.
+Si un script de 1MB se ejecuta de forma síncrona (tradicional), la página tendría un proceso de compilación, menor flexibilidad y un desarrollo más lento, sin embargo, tendría un mayor rendimiento, una detección temprana de errores, optimización del compilador y una ejecución independiente. Si se hubiera hecho de forma asíncrona la página tendría un desarrollo rápido, una interpretación directa, flexibilidad de tipos y es ideal para automatización y prototipado.
 
