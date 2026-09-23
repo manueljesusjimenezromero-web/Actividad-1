@@ -43,3 +43,4 @@ Este error es exactamente lo que debe ocurrir: el navegador está bloqueando el 
 **4. Análisis de bloqueo**
 
 Si un script de 1MB se ejecuta de forma síncrona, la página se congela, pierde fluidez y incluso cerrar el navegador. El modelo asíncrono y orientado a eventos de scripting web evita este bloqueo y mantiene la interfaz reactiva.
+
