@@ -40,3 +40,4 @@ Luego con un comando maligno como el Filereader:
 
 Este error es exactamente lo que debe ocurrir: el navegador está bloqueando el intento de acceder a un archivo del disco usando una ruta local.
 
+
