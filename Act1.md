@@ -1,4 +1,4 @@
-Act 1 creada por Manuel Jesús y José Fernandez.
+Act 1 creada por Manuel Jesús y José Fernández.
 
 Eligiremos la web de Instagram.
 
@@ -19,7 +19,7 @@ La ejecución en el servidor permite que el cliente reciba el HTML completamente
 
 htmlstar es el inicio en el que Chrome empieza a parsear el HTML recibido del servidor y el htmlflush es cuando termina de procesar un bloque de HTML.
 
-Esto se consigue al iniciar la grabación y a la vez recargar la pagina.
+Esto se consigue al iniciar la grabación y a la vez recargar la página.
 
 * Evaluate script: es código ejecutado de JS ejecutado en memoria.
 <img width="1666" height="853" alt="Captura de pantalla 2026-09-22 125017" src="https://github.com/user-attachments/assets/b5075416-5b34-4324-8ec8-bc33a3688637" />
@@ -27,7 +27,7 @@ Esto se consigue al iniciar la grabación y a la vez recargar la pagina.
 * Compile code: barras amarillas finas dentro de esos bloques + sub‑eventos en la tabla inferior.
 <img width="1377" height="371" alt="Captura de pantalla 2026-09-22 133135" src="https://github.com/user-attachments/assets/bb1a7427-9e3a-432b-95c3-2bb9457cb759" />
 
-El motor JS ejecuta y procesa codigo de instagram
+El motor JS ejecuta y procesa codigo de Instagram.
 
 **3. Consola**
    
