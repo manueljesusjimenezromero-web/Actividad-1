@@ -40,3 +40,6 @@ Luego con un comando maligno como el Filereader:
 
 Este error es exactamente lo que debe ocurrir: el navegador está bloqueando el intento de acceder a un archivo del disco usando una ruta local. Es importante para evitar la vulnerabilidad crítica, sin este bloqueo, cualquier página web podría leer tus documentos personales. 
 
+**4. Análisis de bloqueo**
+
+Si un script de 1MB se ejecuta de forma síncrona, la página se congela, pierde fluidez y incluso cerrar el navegador. El modelo asíncrono y orientado a eventos de scripting web evita este bloqueo y mantiene la interfaz reactiva.
