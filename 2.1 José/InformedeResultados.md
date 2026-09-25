@@ -34,4 +34,27 @@ Tarda 5,201 ms.
 <img width="2880" height="1540" alt="Captura de pantalla 2026-09-25 121912" src="https://github.com/user-attachments/assets/d6258981-5251-44d3-b508-8a07c587e20b" />
 
 
+Escenario D:
+
+
+<img width="2424" height="1562" alt="Captura de pantalla 2026-09-25 122439" src="https://github.com/user-attachments/assets/aecfa66a-da13-4f95-96fc-8892da4b8dba" />
+
+
+<img width="2878" height="1538" alt="Captura de pantalla 2026-09-25 122602" src="https://github.com/user-attachments/assets/9dbd64ba-b6b3-40e9-a785-2d7be3b4b39d" />
+
+
+<img width="2880" height="1538" alt="Captura de pantalla 2026-09-25 122622" src="https://github.com/user-attachments/assets/3b07d766-5c06-41ca-a998-7ba08baea496" />
+
+
+Escenario E:
+
+
+<img width="2434" height="1568" alt="Captura de pantalla 2026-09-25 123008" src="https://github.com/user-attachments/assets/6aaeb057-f3f7-436d-a27f-5b259d6483c8" />
+
+<img width="2880" height="1534" alt="Captura de pantalla 2026-09-25 123039" src="https://github.com/user-attachments/assets/a77bea14-1ff0-4386-a1db-c57d46be930d" />
+
+<img width="2880" height="1530" alt="Captura de pantalla 2026-09-25 123054" src="https://github.com/user-attachments/assets/8fc4267e-bb46-437e-9170-3177a23700be" />
+
+
+
 
