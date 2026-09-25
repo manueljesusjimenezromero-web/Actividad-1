@@ -59,6 +59,6 @@ El navegador analiza todo el HTML, construye el DOM completo, ejecución de scri
 
 Tarda 5,063
 
-Comportamiento parecido al defer, retraso de ejecución hasta que haga el parseo, el DOM ya está construido cuando normalmente se ejecutan. 
+Comportamiento parecido al de defer: retrasa la ejecución hasta que termine el parseo. El DOM ya está construido cuando normalmente se ejecuta.
 
 <img width="1258" height="330" alt="Captura de pantalla 2026-09-24 095532" src="https://github.com/user-attachments/assets/5c0ca637-2b5e-46ed-8e06-0a0747a40603" />
