@@ -29,7 +29,10 @@ Tarda 5,085 ms.
 
 En este escenario, bloquea el parseo, haciendo que la página no se vea hasta que los scripts terminen. Esto provoca un mal rendimiento, pero garantiza un orden de ejecución.
 
-<img width="1337" height="290" alt="Captura de pantalla 2026-09-25 091107" src="https://github.com/user-attachments/assets/369ff867-ed38-4917-911e-5efd9ac3ee5a" />
+<img width="1337" height="912" alt="Captura de pantalla 2026-09-25 121148" src="https://github.com/user-attachments/assets/ae9aad52-5401-4afc-a275-b3bfed8776cd" />
+
+<img width="1326" height="917" alt="Captura de pantalla 2026-09-25 121233" src="https://github.com/user-attachments/assets/7abffc85-8de8-4fc1-a501-626d8a9802c0" />
+
 
 **Escenario B**
 
