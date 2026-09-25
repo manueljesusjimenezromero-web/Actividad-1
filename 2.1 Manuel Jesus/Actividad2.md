@@ -25,7 +25,7 @@ Escenario E
 
 **Escenario A**
 
-Tarda 5,085 ms.
+Tarda 5,076 ms.
 
 En este escenario, bloquea el parseo, haciendo que la página no se vea hasta que los scripts terminen. Esto provoca un mal rendimiento, pero garantiza un orden de ejecución.
 
