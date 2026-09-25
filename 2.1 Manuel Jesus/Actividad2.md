@@ -36,7 +36,7 @@ En este escenario, bloquea el parseo, haciendo que la página no se vea hasta qu
 
 **Escenario B**
 
-Tarda 5,058 ms.
+Tarda 5,077 ms.
 
 No bloquea el parseo, permite ver el contenido rápidamente y los scripts se ejecutan después del DOM, pero antes del evento, con un orden de ejecución.
 
