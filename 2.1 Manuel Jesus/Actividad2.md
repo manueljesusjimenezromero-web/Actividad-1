@@ -57,7 +57,7 @@ No bloquea el parseo, permite ver el contenido rápidamente y los scripts se eje
 
 **Escenario D**
 
-Tarda 5,098 ms.
+Tarda 5,067 ms.
 
 El navegador analiza todo el HTML, construye el DOM completo, ejecución de scripts en orden.
 
