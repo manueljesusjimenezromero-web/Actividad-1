@@ -42,6 +42,7 @@ Escenario D:
 
 <img width="2878" height="1538" alt="Captura de pantalla 2026-09-25 122602" src="https://github.com/user-attachments/assets/9dbd64ba-b6b3-40e9-a785-2d7be3b4b39d" />
 
+Tarda 5,316 ms.
 
 <img width="2880" height="1538" alt="Captura de pantalla 2026-09-25 122622" src="https://github.com/user-attachments/assets/3b07d766-5c06-41ca-a998-7ba08baea496" />
 
