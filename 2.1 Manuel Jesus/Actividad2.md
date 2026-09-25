@@ -53,7 +53,7 @@ Tarda 5,098 ms.
 
 El navegador analiza todo el HTML, construye el DOM completo, ejecución de scripts en orden.
 
-<img width="1435" height="413" alt="Captura de pantalla 2026-09-25 091755" src="https://github.com/user-attachments/assets/1dfc5207-014b-4c78-b11d-eb2850db9914" />
+<img width="1316" height="892" alt="Captura de pantalla 2026-09-25 115659" src="https://github.com/user-attachments/assets/beda8c28-74a6-4a65-8718-776d512f8d81" />
 
 **Escenario E**
 
