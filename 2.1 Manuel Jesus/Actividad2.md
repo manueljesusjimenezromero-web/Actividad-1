@@ -68,7 +68,7 @@ El navegador analiza todo el HTML, construye el DOM completo, ejecución de scri
 
 **Escenario E**
 
-Tarda 5,063
+Tarda 5,035
 
 Comportamiento parecido al de defer: retrasa la ejecución hasta que termine el parseo. El DOM ya está construido cuando normalmente se ejecuta.
 
