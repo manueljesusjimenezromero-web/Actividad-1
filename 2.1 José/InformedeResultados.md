@@ -8,10 +8,10 @@ Tarda 5,310 ms.
 
 <img width="2870" height="1530" alt="Captura de pantalla 2026-09-25 101028" src="https://github.com/user-attachments/assets/6ec16990-d1d0-4813-8060-550a97069568" />
 
+Hay error ya que los scripts se ejecutan antes que de que exista el DOM. Esto ocurre debido a que cuando los scripts están en <head> se bloquea el parseo del HTML.
 
 
 Escenario B:
-
 
 <img width="2784" height="1638" alt="Captura de pantalla 2026-09-25 121006" src="https://github.com/user-attachments/assets/34f16d09-1986-431f-814d-7421b144cde4" />
 
@@ -21,6 +21,7 @@ Tarda 5,338 ms.
 
 <img width="2872" height="1542" alt="Captura de pantalla 2026-09-25 121123" src="https://github.com/user-attachments/assets/9040254b-0611-466b-8f17-75660cf96a22" />
 
+No hay error ya que los scripts se ejecutan al final del <body>, es decir, cuando el DOM ya se ha creado.
 
 
 Escenario C:
@@ -32,6 +33,8 @@ Escenario C:
 Tarda 5,201 ms.
 
 <img width="2880" height="1540" alt="Captura de pantalla 2026-09-25 121912" src="https://github.com/user-attachments/assets/d6258981-5251-44d3-b508-8a07c587e20b" />
+
+No hay error. Al usar async los scripts se descargan en paralelo, sin tener que esperar al DOM. A veces también puede dar error.
 
 
 Escenario D:
@@ -46,16 +49,19 @@ Tarda 5,316 ms.
 
 <img width="2880" height="1538" alt="Captura de pantalla 2026-09-25 122622" src="https://github.com/user-attachments/assets/3b07d766-5c06-41ca-a998-7ba08baea496" />
 
+No hay error con defer porque ejecuta los script en paralelo cuando el DOM está listo.
+
 
 Escenario E:
-
 
 <img width="2434" height="1568" alt="Captura de pantalla 2026-09-25 123008" src="https://github.com/user-attachments/assets/6aaeb057-f3f7-436d-a27f-5b259d6483c8" />
 
 <img width="2880" height="1534" alt="Captura de pantalla 2026-09-25 123039" src="https://github.com/user-attachments/assets/a77bea14-1ff0-4386-a1db-c57d46be930d" />
 
+Tarda 5.350 ms.
+
 <img width="2880" height="1530" alt="Captura de pantalla 2026-09-25 123054" src="https://github.com/user-attachments/assets/8fc4267e-bb46-437e-9170-3177a23700be" />
 
 
-
+No hay error. Los módulos no bloquean el parseo y esperan a que el DOM esté construido.
 
